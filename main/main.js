@@ -21,7 +21,6 @@ module.exports = function main(inputs) {
         for (var j = 0; j < allItems.length; j ++) {
             if (inputs[i] === allItems[j].barcode){
                 itemsNums[j] += 1;
-                break；
             }
         }
      }
