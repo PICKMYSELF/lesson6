@@ -9,5 +9,6 @@ module.exports = function main (inputs) {
         
         sum += inputs[i].count * inputs[i].price;  
     }  
-    return detaild_list + '\n' + '----------------------' + '\n' + '总计:' + sum + '.00' + '(元)' + '\n' + '**********************';
+    console.log(detaild_list + '\n' + '----------------------' + '\n' + '总计:' + sum + '.00' + '(元)' + '\n' + '**********************');
+    return 'Hello world!';
 };
